@@ -16,6 +16,8 @@ just place it in a directory, execute, and it's ready to go.
 ```
 
 ## Notes
+* tftp service is UDP/69, you might need root permission to bind.
+* Serves http on TCP/8080.
 * No Configuration Needed: Multiserver is ready to serve files immediately
   upon execution.
 * Logging: Logs output to stdout.
